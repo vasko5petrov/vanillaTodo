@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vanilla Todo App</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="heading-main">Vanilla Todo App</h1>
+            <form id="new-todo-form" class="flex">
+                <input type="text" id="todo-input" name="todo-input" placeholder="New Todo">
+                <button type="button" id="todo-submit">Add</button>
+            </form>
+            <button type="button" id="btn-clear">Clear All</button>
+        </header>
+        <main>
+            <div id="todo-wrap">
+                <h3>Todo List</h3>
+                <ul id="todo-list">
+                    
+                </ul>
+            </div>
+            <div id="done-wrap">
+                <h3>Done</h3>
+                <ul id="done-list">
+                        
+                </ul>
+            </div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
